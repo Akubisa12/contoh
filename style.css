@@ -1,0 +1,106 @@
+/* css reset */
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* modifikasi bagian age Calulator serta body dan tombol calculate */
+body{
+  background-color: #65ffff;
+}
+
+.container{
+  width:40%;
+  min-width: 320px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+}
+
+.inputs-wrapper{
+  background-color: #00668a;
+  padding: 30px 25px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.3);
+}
+
+h4{
+  color:#ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+
+input,
+button{
+  height: 50px;
+  background-color: #ffffff;
+  color:#080808;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border:none;
+}
+
+input{
+  width: 100%;
+  padding:0 20px;
+  font-size: 24px;
+  margin: 25px 0;
+  outline: none;
+}
+
+/* modifikasi latar belakang yang bagian 0 years, 0 months, 0 days */
+button{
+  width:100%;
+  cursor: pointer;
+}
+
+.outputs-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outputs-wrapper div{
+  height: 85px;
+  width: 100%;
+  background-color: #02000e;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color:#fff;
+  display: flex;
+  place-items: center;
+  padding: 10px 0;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.3);
+  justify-content: space-evenly;
+}
+
+/* modifikasi text */
+span{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+p{
+  font-size: 12px;
+  color:#ffffff;
+  font-weight: 500;
+}
